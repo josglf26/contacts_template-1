@@ -1,0 +1,19 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: white;
+}
+
+:root {
+  color-scheme: light dark;
+
+  --text-color-light: #000000;
+  --text-color-dark:  #e5e5e5;
+  --bg-color-light: #fafafa;
+  --bg-color-dark: #363535;
+  --primary-color-light: #f97316;
+  --primary-color-dark: #fdba74;
+}
